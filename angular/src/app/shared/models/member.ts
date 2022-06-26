@@ -1,4 +1,5 @@
 import { Address } from './address'
+import { MaratalStatus } from './model';
 
 export interface Member {
    id: number;
@@ -7,4 +8,6 @@ export interface Member {
    education: string;
    occupation: string;
    address: Address;
+   spouse: string;
+   maratalStatus: MaratalStatus;
 }
