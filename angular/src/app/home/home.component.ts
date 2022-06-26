@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Model } from '../shared/models/model'
 
 @Component({
   selector: 'app-home',
